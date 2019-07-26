@@ -6,4 +6,8 @@ def batch_badge_creator(names)
   badge_messages =[]
  names.each {|n| badge_messages.push( "Hello, my name is #{n}.")}
  return badge_messages
-end 
+end
+
+def assign_room(speakers)
+  room_assignments =[]
+  speakers.each {|n| 
