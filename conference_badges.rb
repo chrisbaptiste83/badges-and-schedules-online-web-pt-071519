@@ -10,4 +10,4 @@ end
 
 def assign_room(speakers)
   room_assignments =[]
-  speakers.each {|n| 
+  speakers.each_with_index {|n, i| room_assignments.push() 
