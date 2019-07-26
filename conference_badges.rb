@@ -14,7 +14,7 @@ def assign_rooms(speakers)
   return room_assignments
 end 
 
-def printer(speakers)
+def printer
    badge_messages.each {|n| puts n}
   
   
