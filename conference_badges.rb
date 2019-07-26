@@ -15,3 +15,4 @@ def assign_rooms(speakers)
     counter += 1
     new_array
   end
+end 
